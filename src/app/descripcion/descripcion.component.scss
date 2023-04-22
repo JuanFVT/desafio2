@@ -1,0 +1,31 @@
+
+
+#container{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+}
+
+#cartaInfo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 75vh;
+    display: flex;
+    width: 30%;
+}
+
+#img{
+    width: 50%;
+}
+
+#miniImagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+#miniImagenes > img{
+    height: 60px;
+    border: 1px solid gray;
+}

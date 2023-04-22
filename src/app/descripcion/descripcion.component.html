@@ -1,0 +1,32 @@
+<div id="container" class="m-4 rounded-1">
+    <div id="miniImagenes">
+        <img class="m-2 rounded-1" src="{{arrObj[idReturn()-1].imagen}}" alt="">
+        <img class="m-2 rounded-1" src="{{arrObj[idReturn()-1].miniImg1}}" alt="">
+        <img class="m-2 rounded-1" src="{{arrObj[idReturn()-1].miniImg2}}" alt="">
+    </div>
+    <img id="img" class="m-3 img-thumbnail" src="{{arrObj[idReturn()-1].imagen}}" alt="">
+    <section id="cartaInfo" class="m-3 rounded-1 bg-light">
+        <h2 class="m-2">{{arrObj[idReturn()-1].titulo}} ❤</h2>
+        <span class="m-2">⭐⭐⭐⭐</span>
+        <p class="m-2">U$S {{arrObj[idReturn()-1].precio}} (●'◡'●)
+            <br>
+            Bs 12,12
+        </p>
+        <p class="m-2">Ver los medios de pago</p>
+        <div class="m-3">
+            <p>🚚 Envio gratis a todo el pais
+                <br>
+                Barquisimeto, Lara
+                <br>
+                tipo de envio: {{arrObj[idReturn()-1].tipoEnvio}}
+            </p>
+        </div>
+        <hr>
+        <div class="m-3">
+            <h3>Descripcion</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <button type="button" class="btn-primary m-2 rounded-1 p-2">comprar ahora</button>
+    </section>
+</div>

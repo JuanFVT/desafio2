@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(223, 223, 65);
+}
+
+header > div{
+    margin: 10px;
+}
+
+header > div > input{
+    position: relative;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+    height: 3vh;
+    border: none;
+    padding: 10px;
+    width: 350%;
+    left: -200px;
+}
+
+#imgOferta > img{
+    max-width: 340px;
+    max-height: 39px;
+
+}
+
+#logo{
+    cursor: pointer;
+}
